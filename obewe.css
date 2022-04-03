@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgb(4, 4, 114);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.menu-list li a:hover {
+    color: red;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    
+}
+.nav2{
+    background-color: black;
+    padding: 10px 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-list, .menu-list li {
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-list li {
+    margin-right: 10px;
+}
+.menu-list li a:hover {
+    color: red;
+}
+.logo {
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.logo a {
+    text-decoration: none;
+    color: blue;
+}
+.menu{
+    text-align: center;
+    display: flex;
+    justify-content: right;
+}
+.next{
+    background-color: rgb(7, 7, 80);
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.nav3{
+    text-align: center;
+    background-color: grey;
+    padding: 15px 0;
+    color: rgb(34, 31, 31);
+}
+.image{
+    width: 100%;
+}
+h3{
+    text-align: center;
+    color: rgb(66, 64, 64);
+}
+.func{
+    text-align: center;
+}
+
+.main-body{
+    display: flex;
+    justify-content: space-between;
+}
+.beauty{
+    width: 100%;
+    height: 100%;
+}
+.text-area{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-nav {
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+
+
+
